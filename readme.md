@@ -14,16 +14,4 @@ Séance 4 (Visualisation des données): https://ninas21.github.io/cen1dd24/EXO4_
 
 Mon site final pour la datavisualisation: 
 
-Page1: https://ninas21.github.io/cen1dd24/openPageMJ.html
-
-Page2: https://ninas21.github.io/cen1dd24/SiteMichaelJackson.html
-
-Page4: https://ninas21.github.io/cen1dd24/histoire.html
-
-Page5: https://ninas21.github.io/cen1dd24/jeuMJ.html
-
-Page6: https://ninas21.github.io/cen1dd24/jeuDeviner.html
-
-Page7: https://ninas21.github.io/cen1dd24/Download.html
-
-Page8: https://ninas21.github.io/cen1dd24/Projet.html
+Page1: https://ninas21.github.io/cen1dd24/

@@ -12,4 +12,10 @@ Séance 3 (Palladio + google sheets): https://ninas21.github.io/cen1dd24/exo2Goo
 
 Séance 4 (Visualisation des données): https://ninas21.github.io/cen1dd24/EXO4_Visualisation.html
 
-Mon site final pour la datavisualisation: https://ninas21.github.io/cen1dd24/
+Mon site final pour la datavisualisation: https://ninas21.github.io/cen1dd24/openPageMJ.html
+                                          https://ninas21.github.io/cen1dd24/SiteMichaelJackson.html
+                                          https://ninas21.github.io/cen1dd24/histoire.html
+                                          https://ninas21.github.io/cen1dd24/jeuMJ.html
+                                          https://ninas21.github.io/cen1dd24/jeuDeviner.html
+                                          https://ninas21.github.io/cen1dd24/Download.html
+                                          https://ninas21.github.io/cen1dd24/Projet.html

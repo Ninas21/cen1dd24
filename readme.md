@@ -11,3 +11,5 @@ Séance 2 (Requête Wikidata): https://ninas21.github.io/cen1dd24/exo1Requete.ht
 Séance 3 (Palladio + google sheets): https://ninas21.github.io/cen1dd24/exo2GoogleSheetsEtPalladio.html
 
 Séance 4 (Visualisation des données): https://ninas21.github.io/cen1dd24/EXO4_Visualisation.html
+
+Mon site final pour la datavisualisation: 

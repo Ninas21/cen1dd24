@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenues dans mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+body {
+    height: 100%;
+    margin: 0;
+    font-family: cursive;
+    background-image: url('image/Fond.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    padding: 50px;
+    color: #341760;
+    opacity: 0; /* Commence invisible */
+    animation: zoomIn 1s ease-out forwards; /* Logo et texte 1 apparaissent en premier */
+    animation-delay: 0.5s; /* L'animation du h1 commence après 0.5s */
+}
+
+h2, h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    border: 2px solid #341760;
+    background-color: #341760;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    opacity: 0; /* Commence invisible */
+    animation: zoomIn 1s ease-out forwards; /* Animation de zoom */
+}
+
+/* Définition de l'animation de zoom */
+@keyframes zoomIn {
+    0% {
+        transform: scale(0); /* Élément invisible, à taille nulle */
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1); /* Élément à sa taille originale */
+        opacity: 1;
+    }
+}
+
+/* Animation avec des délais pour chaque texte */
+h2:nth-of-type(1) {
+    animation-delay: 1.5s; /* Le premier texte h2 arrive après h1 */
+}
+
+h2:nth-of-type(2) {
+    animation-delay: 3.5s; /* Le deuxième texte h2 arrive après le premier texte */
+}
+
+h2:nth-of-type(3) {
+    animation-delay: 5.5s; /* Le troisième texte h2 arrive après le deuxième texte */
+}
+
+h3 {
+    animation-delay: 7.5s; /* Le quatrième texte h3 arrive après le troisième texte */
+}
+
+img {
+    margin-left: 700px;
+    margin-top: -40px;
+    opacity: 0; /* Commence invisible */
+    animation: zoomIn 1s ease-out forwards; /* Animation du logo */
+    animation-delay: 0.5s; /* Le logo arrive en premier avec le texte h1 */
+}
+
+/* Bouton */
+.btn {
+     background: linear-gradient(to bottom, #3b0a65, #7f30b2, #c082e9, #f3e6fc);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 600px;
+    font-size: 35px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+    opacity: 0;
+    animation: zoomIn 1s ease-out forwards;
+}
+
+/* Le bouton apparaît après tous les textes */
+.btn {
+    animation-delay: 8.5s; /* Le bouton apparaît après tous les textes */
+}
+
+.btn:hover {
+    background-color: #e67e22;
+}
+</style>
+<body>
+
+<h1> Bienvenues dans mon portfolio</h1>
+
+<img src="image/logo2.png" height="100px" width="180px" alt="Logo" title="Bienvenue dans mon portfolio">
+
+<h2> Comme un boomerang, je navigue entre code et design : je vais, je reviens, et je progresse à chaque boucle</h2>
+
+<h2> Pas de soucis !! Il suffit juste de cliquer sur ce bouton .</h2>
+<h2> Allez-y ! N'hésitez-pas !!</h2>
+
+<section class="port">
+
+<a href="accueil.html" class="btn">Découvrez mon portfolio</a>
+</section>
+</body>
+</html>
